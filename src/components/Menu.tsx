@@ -23,17 +23,21 @@ function Menu() {
   }, [darkMode])
 
   const navItems = [
-    { path: '/about', label: 'About' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/about', label: 'about.' },
+    { path: '/contact', label: 'contact.' },
   ]
 
   return (
     <nav className="fixed top-0 left-0 right-0 h-16 flex items-center justify-between px-6 bg-neutral-50/80 dark:bg-neutral-950/80 backdrop-blur-xl z-50 border-b border-neutral-200/50 dark:border-neutral-800/50">
       <Link 
         to="/" 
-        className="text-xl font-semibold tracking-tight hover:opacity-60 transition-opacity"
-      >
-        AG
+        className="hover:opacity-60 transition-opacity"
+        >
+        <img 
+            src={import.meta.env.BASE_URL + (darkMode ? 'ghost-light.png' : 'ghost-dark.png')} 
+            alt="Home" 
+            className="w-8 h-8"
+        />
       </Link>
 
       <div className="flex items-center gap-8">

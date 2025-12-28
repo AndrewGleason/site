@@ -9,7 +9,7 @@ function About() {
       transition={{ duration: 0.5, ease: 'easeOut' }}
       className="max-w-2xl"
     >
-      <h1 className="text-2xl font-medium tracking-tight mb-6">About</h1>
+      <h1 className="text-2xl font-medium tracking-tight mb-6">about.</h1>
       <div className="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed">
         <p>
           I’m Andrew, a generalist software engineer based in New York. I work on distributed systems and APIs, with a focus on clarity, reliability, and sytems that hold up over time.

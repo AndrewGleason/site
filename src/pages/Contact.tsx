@@ -15,7 +15,7 @@ function Contact() {
       transition={{ duration: 0.5, ease: 'easeOut' }}
       className="flex flex-col items-center gap-8"
     >
-      <h1 className="text-2xl font-medium tracking-tight">Contact</h1>
+      <h1 className="text-2xl font-medium tracking-tight">contact.</h1>
 
       <div className="flex flex-col sm:flex-row gap-4">
         <button

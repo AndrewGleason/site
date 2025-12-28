@@ -10,10 +10,10 @@ function Home() {
       className="fixed bottom-8 right-8 sm:bottom-12 sm:right-12 text-right"
     >
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight">
-        Andrew Gleason
+        andrew gleason
       </h1>
       <p className="mt-2 text-sm sm:text-base text-neutral-500 dark:text-neutral-400 tracking-wide">
-        New York | SF
+        new york | sf
       </p>
     </motion.div>
   )
