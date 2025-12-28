@@ -12,13 +12,10 @@ function About() {
       <h1 className="text-2xl font-medium tracking-tight mb-6">About</h1>
       <div className="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          I’m Andrew, a generalist software engineer based in New York. I work on distributed systems and APIs, with a focus on clarity, reliability, and sytems that hold up over time.
         </p>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-        </p>
-        <p>
-          Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+          Outside of work, I’m into food, skiing, travel, hiking, running, live music, and design. I like things that are well-made and thoughtfully designed.
         </p>
       </div>
     </motion.div>

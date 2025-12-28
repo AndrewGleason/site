@@ -2,7 +2,7 @@ import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import Menu from './components/Menu'
 import Home from './pages/Home'
-import CV from './pages/CV'
+import About from './pages/About'
 import Contact from './pages/Contact'
 
 function AnimatedRoutes() {
