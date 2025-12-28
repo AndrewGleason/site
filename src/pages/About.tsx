@@ -15,7 +15,7 @@ function About() {
           I’m Andrew, a generalist software engineer based in New York. I work on distributed systems and APIs, with a focus on clarity, reliability, and sytems that hold up over time.
         </p>
         <p>
-          Outside of work, I’m into food, skiing, travel, hiking, running, live music, global trade and second order effects. I like things that are well-made and thoughtfully designed.
+          Outside of work, I’m into food, skiing, travel, hiking, running, live music, skincare, global trade and second order effects. I like things that are well-made and thoughtfully designed.
         </p>
       </div>
     </motion.div>
