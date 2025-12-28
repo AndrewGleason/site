@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 
 function Contact() {
   const handleEmailClick = () => {
-    const user = 'agleasontu'
-    const domain = 'gmail.com'
+    const user = 'hi'
+    const domain = 'andrewgleason.com'
     window.open(`mailto:${user}@${domain}`, '_blank')
   }
 
