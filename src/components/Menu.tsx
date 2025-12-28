@@ -23,7 +23,6 @@ function Menu() {
   }, [darkMode])
 
   const navItems = [
-    { path: '/cv', label: 'CV' },
     { path: '/contact', label: 'Contact' },
   ]
 
