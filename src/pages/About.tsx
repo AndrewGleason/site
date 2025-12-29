@@ -47,6 +47,7 @@ export default function About() {
   const [showSkier, setShowSkier] = useState(false)
   const [isTradeAnimating, setIsTradeAnimating] = useState(false);
   const [isMelting, setIsMelting] = useState(false);
+  const [dockPosition, setDockPosition] = useState({ x: 0, y: 60 });
 
   const triggerSkier = useCallback(() => {
     if (!isTradeAnimating) setShowSkier(true)
@@ -54,7 +55,14 @@ export default function About() {
   const handleComplete = useCallback(() => setShowSkier(false), [])
   
   const startTradeAnimation = useCallback(() => {
-    if (!showSkier) setIsTradeAnimating(true);
+    if (!showSkier) {
+      const rect = headingRef.current?.getBoundingClientRect();
+      setDockPosition({
+        x: rect?.right ?? 0,
+        y: rect?.top ?? 60,
+      });
+      setIsTradeAnimating(true);
+    }
   }, [showSkier]);
   
   const handleMeltStart = useCallback(() => {
@@ -79,8 +87,8 @@ export default function About() {
           <GlobalTradeAnimation 
             onComplete={handleTradeComplete}
             onMeltStart={handleMeltStart}
-            dockY={headingRef.current?.getBoundingClientRect().top ?? 60}
-            dockX={headingRef.current?.getBoundingClientRect().right ?? 0}
+            dockY={dockPosition.y}
+            dockX={dockPosition.x}
           />
         )}
       </AnimatePresence>
