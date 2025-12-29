@@ -132,7 +132,7 @@ export default function About() {
           <p>
             I'm Andrew, a generalist software engineer based in New York. I work
             on distributed systems and APIs, with a focus on clarity,
-            reliability, and systems that hold up over time.
+            reliability, and keeping systems simple as they evolve.
           </p>
           <p>
             Outside of work, I'm into food,{' '}
